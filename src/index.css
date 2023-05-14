@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+    padding: 0
+}
+:root{
+
+    --primary: #E0D2C3;
+    --secondary: #93827F;
+    --terciary:#f0e4d8;
+    --bg:#fff1f0;
+}
