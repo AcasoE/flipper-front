@@ -23,7 +23,7 @@ const Flipp = ({ post, isEditMode }) => {
             </Flex>
             <Flex flexDirection="column">
               <Flex flexWrap="wrap" alignItems="center">
-                <Text flexGrow={1} fontWeight="bold">{post.tittle}</Text>
+                <Text  fontWeight="bold">{post.tittle}</Text>
                 <Text>@{user.userName}</Text>
                 <Text marginLeft={1} fontSize={12}>
                   ·{getTimeAgo(post.createdAt)}
