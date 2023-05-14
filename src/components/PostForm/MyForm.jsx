@@ -43,7 +43,7 @@ const MyForm = ({ onClose, id, post  }) => {
                 <FormControl mt={4} isRequired>
                   <FormLabel>Descripción</FormLabel>
                   <Field name="content">
-                    {({ field }) => <Textarea h={150} resize="none" {...field} bg="var(--bg)"/>}
+                    {({ field }) => <Textarea h={150} resize="none" {...field} maxLength={200} bg="var(--bg)"/>}
                   </Field>
                 </FormControl>
                 <Button type="submit" mt={4} bg="pink.300" _hover={{bg: "green", color: "white"}}>
